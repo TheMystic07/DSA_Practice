@@ -1,0 +1,6 @@
+# Exclude C++ output files
+*.o
+*.out
+*.exe
+*.dll
+
