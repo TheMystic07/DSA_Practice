@@ -37,9 +37,9 @@ void mergeSort(int *arr,int low,int high){
 
 
 int main (int argc, char *argv[]) {
-  int * arr=getArray(5,0,10);
-  printArray(arr,5);
-  mergeSort(arr,0,4);
-  printArray(arr,5);
+  int * arr=getArray(20,0,100);
+  printArray(arr,20);
+  mergeSort(arr,0,19);
+  printArray(arr,20);
   return 0;
 } 

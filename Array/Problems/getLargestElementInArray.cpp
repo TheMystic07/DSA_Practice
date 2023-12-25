@@ -10,5 +10,4 @@ int main (int argc, char *argv[]) {
   printArray(arr,10);
   cout << "The Largest Element is :"<<getLargestArrayInArray(arr,10) << endl;
   return 0;
-}
-
+}``1sf SG 

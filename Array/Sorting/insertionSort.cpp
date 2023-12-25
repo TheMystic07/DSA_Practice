@@ -23,10 +23,10 @@ void insertionSort(int * arr,int size){
   }
 }
 int main (int argc, char *argv[]) {
-  int * arr=getArray(8,0,10 );
-  printArray(arr,8);
-  insertionSort(arr,8);
-  printArray(arr,8);
+  int * arr=getArray(100,0,99 );
+  printArray(arr,100);
+  insertionSort(arr,100);
+  printArray(arr,100);
   
   return 0;
 }
